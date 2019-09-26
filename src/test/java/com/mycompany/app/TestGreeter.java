@@ -8,6 +8,6 @@ public class TestGreeter {
 	@Test
 	public void testSayHello() {
 		Greeter myGreeter = new Greeter();
-		assertEquals("hi!", myGreeter.SayHello());
+		assertEquals("hi", myGreeter.SayHello());
 	}
 }
